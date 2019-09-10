@@ -1,0 +1,12 @@
+.block {
+background-color: red;
+width: 100px;
+height: 100px;
+float: left;
+margin-left: 10px;
+}
+
+.selected {
+background-color: lightSkyBlue;
+transition: background-color 0.4s ease-in, border-color 0.4s ease-in;
+}
