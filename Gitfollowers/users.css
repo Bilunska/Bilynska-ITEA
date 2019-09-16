@@ -1,0 +1,113 @@
+#searchInput{
+	font-size: 30px;
+}
+
+#avatar {
+        width: 350px;
+        height: 350px;
+        border: 10px red;
+        position: initial;
+    }
+
+#avatars {
+        width: 100px;
+        height: 100px;
+    } 
+
+#avatarsi   {
+        width: 100px;
+        height: 100px;
+        
+    }
+
+#avatarsi2   {
+        width: 100px;
+        height: 100px;
+        
+    } 
+
+#avatarsi3   {
+        width: 100px;
+        height: 100px;
+        
+    } 
+
+#avatarsi4   {
+        width: 100px;
+        height: 100px;
+        
+    } 
+#avatarsi5   {
+        width: 100px;
+        height: 100px;
+        
+    } 
+
+body{
+	background: lightblue url("github.jpg") no-repeat fixed center;
+	width: 100px;
+    height: 100px;
+}
+
+div {
+    font-size: 35px;
+    color: #000;
+    padding: 30px;
+    text-shadow: 0px 0px 30px orangered;
+    text-align: center;
+    }
+
+h2 {
+    font-size: 50px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    text-shadow: 5px 10px 30px black;
+    position: initial;
+    text-align: center;
+    left: 70px;
+    top: 10px;
+    letter-spacing: 3px;
+}
+
+h2::first-letter {
+    color: black;
+}
+
+h1{
+	display: inline-block;
+	align-items: center;
+	font-size: 25px;
+}
+
+p{
+        width: 300px;
+        word-wrap: break-word;
+
+    }
+
+a{
+	font-size: 25px;
+
+
+}
+
+.grid-name{
+	display: grid;
+	grid: 1px / auto auto auto auto auto auto;
+	grid-gap: 40px;
+	padding: 70px;
+
+}
+.grid-container {
+  display: grid;
+  grid: 10px / auto auto auto auto auto auto;
+  grid-gap: 30px;
+  padding: 40px;
+}
+
+#getUserBtn{
+	border: 5px;
+    padding: 10px;
+    color: #ffffff;
+    background: black;
+}
